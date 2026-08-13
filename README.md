@@ -1,26 +1,36 @@
-# My Portfolio Website
+# Alin Sharma — Portfolio (React)
 
-Welcome to my personal portfolio! This site showcases my projects, skills, and contact information.
+Personal portfolio built with **React**, **Vite**, and **Tailwind CSS**.
 
-## 🚀 About Me
-Hello! I’m Alin SharmA, a passionate and dedicated Web Developer currently in the final year of my B.Tech in Computer Science Engineering at Poornima College of Engineering Jaipur.
+## About
 
+Full Stack Developer | Technical Trainer | Python & Machine Learning | Product Enthusiast
 
+## Tech stack
 
+- React 19
+- Vite 6
+- Tailwind CSS 3
+- Font Awesome (CDN)
 
-## 🧑‍💻 Tech Stack
-- Frontend: HTML, CSS, JavaScript, Tailwind css ,Boostrap.
-- Backend : e.g. Node.js, Express js , etc.
-- Tools: Git, VS Code, etc.
+## Local setup
 
-## 🔧 Local Setup
-1. Clone this repo:  
+```bash
+npm install
+npm run dev
+```
 
-2. Navigate into the folder:  
-   `cd your-portfolio`
-3. Open `index.html` in your browser (or run a static server).
+Open the URL shown in the terminal (usually `http://localhost:5173`).
 
+### Other commands
 
----
+```bash
+npm run build    # production build → dist/
+npm run preview  # preview the production build locally
+```
 
-*Feel free to customize sections like "About Me", "Projects", and "Contact" to match your style.*  
+## Deploy
+
+Pushing to `main` builds the React app and deploys `dist/` to GitHub Pages via `.github/workflows/static.yml`.
+
+Live site (after deploy): `https://alinsharma.github.io/Portfolio/`
